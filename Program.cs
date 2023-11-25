@@ -16,16 +16,16 @@ using (HttpClient client = new HttpClient())
         var musicas = JsonSerializer.Deserialize<List<Musica>>(resposta)!;
         musicas[1].ExibirDetalhesDaMusica();
 
-        //var minhasMusicasPreferidas = new MusicasPreferidas("Paulo");
-        //minhasMusicasPreferidas.AdicionarMusicasFavoritas(musicas[1]);
-        //minhasMusicasPreferidas.AdicionarMusicasFavoritas(musicas[2]);
-        //minhasMusicasPreferidas.AdicionarMusicasFavoritas(musicas[3]);
-        //minhasMusicasPreferidas.AdicionarMusicasFavoritas(musicas[4]);
-        //minhasMusicasPreferidas.AdicionarMusicasFavoritas(musicas[5]);
+        var minhasMusicasPreferidas = new MusicasPreferidas("Paulo");
+        minhasMusicasPreferidas.AdicionarMusicasFavoritas(musicas[1]);
+        minhasMusicasPreferidas.AdicionarMusicasFavoritas(musicas[2]);
+        minhasMusicasPreferidas.AdicionarMusicasFavoritas(musicas[3]);
+        minhasMusicasPreferidas.AdicionarMusicasFavoritas(musicas[4]);
+        minhasMusicasPreferidas.AdicionarMusicasFavoritas(musicas[5]);
 
-        //minhasMusicasPreferidas.ExibirMusicasFavoritas();
+        minhasMusicasPreferidas.ExibirMusicasFavoritas();
 
-        //minhasMusicasPreferidas.GerarArquivoTxt();
+        minhasMusicasPreferidas.GerarArquivoTxt();
         
     }   
     catch (Exception ex)
@@ -39,19 +39,3 @@ using (HttpClient client = new HttpClient())
 
 
 
-//using (HttpClient got = new HttpClient())
-//{
-//    try
-//    {
-//        string res = await got.GetStringAsync("https://anapioficeandfire.com/api/characters/583");
-//        // Criando um objeto do tipo 'Got' e desserializando. 
-//        Got personagens = JsonSerializer.Deserialize<Got>(res)!;
-//        personagens.DetalhesPersonagens();
-
-
-//    }
-//    catch (Exception ex_got)
-//    {
-//        Console.WriteLine($"tivemos um problema: {ex_got}");
-//    }
-//}

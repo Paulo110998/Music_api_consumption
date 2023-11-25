@@ -4,6 +4,10 @@ namespace API_music.Models;
 
 internal class Musica
 {
+    // Outra forma de criar uma lista de string
+    private string[] TonalidadeList = {"C", "C#", "D", "Eb", "E", 
+        "F", "F#", "G", "Ab", "A", "Bb", "B" };
+    
     // Buscando o nome do campo 'song' na api de música
     [JsonPropertyName("song")] // Atributo que representa um metadado.
     public string? Nome { get; set; }
@@ -29,6 +33,14 @@ internal class Musica
     [JsonPropertyName("key")]
     public int Key { get; set; }
 
+    public string Tonalidade
+    {
+        get
+        {
+            return TonalidadeList[Key];
+        }
+    }
+
     public void ExibirDetalhesDaMusica()
     {
         Console.WriteLine($"Artista: {Artista}");
@@ -36,7 +48,7 @@ internal class Musica
         Console.WriteLine($"Duração em segundos: {Duracao /1000}");
         Console.WriteLine($"Gênero: {Genero}");
         Console.WriteLine($"Ano: {Ano}");
-        Console.WriteLine($"Tonalidade: {Key} ");
+        Console.WriteLine($"Tonalidade: {Tonalidade} ");
     }
    
 }
