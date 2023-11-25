@@ -1,0 +1,14 @@
+C:\Users\canto\OneDrive\Área de Trabalho\Curso C# - Alura\API_music\bin\Debug\net7.0\API_music.exe
+C:\Users\canto\OneDrive\Área de Trabalho\Curso C# - Alura\API_music\bin\Debug\net7.0\API_music.deps.json
+C:\Users\canto\OneDrive\Área de Trabalho\Curso C# - Alura\API_music\bin\Debug\net7.0\API_music.runtimeconfig.json
+C:\Users\canto\OneDrive\Área de Trabalho\Curso C# - Alura\API_music\bin\Debug\net7.0\API_music.dll
+C:\Users\canto\OneDrive\Área de Trabalho\Curso C# - Alura\API_music\bin\Debug\net7.0\API_music.pdb
+C:\Users\canto\OneDrive\Área de Trabalho\Curso C# - Alura\API_music\obj\Debug\net7.0\API_music.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\canto\OneDrive\Área de Trabalho\Curso C# - Alura\API_music\obj\Debug\net7.0\API_music.AssemblyInfoInputs.cache
+C:\Users\canto\OneDrive\Área de Trabalho\Curso C# - Alura\API_music\obj\Debug\net7.0\API_music.AssemblyInfo.cs
+C:\Users\canto\OneDrive\Área de Trabalho\Curso C# - Alura\API_music\obj\Debug\net7.0\API_music.csproj.CoreCompileInputs.cache
+C:\Users\canto\OneDrive\Área de Trabalho\Curso C# - Alura\API_music\obj\Debug\net7.0\API_music.dll
+C:\Users\canto\OneDrive\Área de Trabalho\Curso C# - Alura\API_music\obj\Debug\net7.0\refint\API_music.dll
+C:\Users\canto\OneDrive\Área de Trabalho\Curso C# - Alura\API_music\obj\Debug\net7.0\API_music.pdb
+C:\Users\canto\OneDrive\Área de Trabalho\Curso C# - Alura\API_music\obj\Debug\net7.0\API_music.genruntimeconfig.cache
+C:\Users\canto\OneDrive\Área de Trabalho\Curso C# - Alura\API_music\obj\Debug\net7.0\ref\API_music.dll
