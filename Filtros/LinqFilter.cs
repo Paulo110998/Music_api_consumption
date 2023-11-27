@@ -61,6 +61,20 @@ namespace API_music.Filtros
 
             }
         }
+
+        public static void FiltrarMusicasIndiceUm(List<Musica> musics)
+        {
+            var musicasIndiceUm = musics.Where(musica_tom => 
+            musica_tom.Tonalidade.Equals("C#"))
+                .Select(musica_nome => musica_nome.Nome).ToList();
+            Console.WriteLine("Músicas em tonalidade C#\n");
+            foreach (var musica in musicasIndiceUm)
+            {
+                Console.WriteLine(musica);
+
+
+            }
+        }
         
     }
 }
